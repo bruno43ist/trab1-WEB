@@ -1,0 +1,62 @@
+body {
+	background-color: #e7e7e7 !important;
+
+	--img-url: url(https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=350&h=350&fit=crop&crop=faces);
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #66CDAA;
+}
+
+fonte {
+	font-family: 'Bebas Neue', cursive;
+}
+
+.cardLink {
+	width: 15rem;
+	/*border: solid 1px black !important;
+	border-radius: 15% !important;*/
+}
+
+.headshot {
+	flex-shrink: 0;
+	margin: 20px;
+	/*height: calc(150px + 6vw);
+	width: calc(150px + 6vw);*/
+	border: calc(8px + 0.2vw) solid transparent;
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	background-size: cover;
+	box-sizing: border-box;
+	/*box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);*/
+}
+
+.headshot-1 {
+	border-radius: 30%;
+}
+
+.headshot:hover {
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.module-border-wrap {
+  padding: 2px;
+  background: linear-gradient(to right, #D2CCC4, #2F4353);
+}
+
+.module {
+  background: #FFF;
+}
+
+/*INFORMAÇÕES PESSOAIS*/
+#infoPessoais {
+	padding: 10px;
+}
+
+#imgPerfil {
+	border-radius: 50%;
+}
