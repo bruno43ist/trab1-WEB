@@ -1,0 +1,9 @@
+#projetos {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.item-projeto {
+    display: flex !important;
+    align-items: center !important;
+    margin-bottom: 5px;
+}
